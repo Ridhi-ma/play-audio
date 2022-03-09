@@ -1,0 +1,45 @@
+.specifications {
+  margin: auto;
+  width: 88%;
+  padding: 15px 24px;
+  text-align: right;
+  display: flex;
+  justify-content: right;
+}
+h1 {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  font-size: 50px;
+}
+body {
+  background-image: url("music-icon-glmrvn.png");
+  /* background-repeat: no-repeat; */
+  background-position-y: -15rem;
+
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+h2 {
+  text-align: right;
+  position: relative;
+  top: 250px;
+}
+#play {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: auto;
+  justify-content: flex-end;
+  align-self: flex-end;
+  align-content: flex-end;
+}
+.imgs {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 45vh;
+  right: 25vh;
+}

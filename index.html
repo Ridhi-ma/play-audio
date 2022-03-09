@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="specifications">
+      <button class="home">HOME</button>
+      <button class="about">ABOUT</button>
+      <button class="account">ACCOUNT</button>
+    </div>
+
+    <div id="play">
+      <h2>Click here to listen to song</h2>
+      <img
+        src="images.jpg"
+        alt="play/pause"
+        srcset=""
+        class="imgs"
+        onclick="playAudio()"
+      />
+    </div>
+    <h1>RANDOM SONGS</h1>
+    <audio id="mysong">
+      <source src="./Lut Gaye - Jubin Nautiyal.mp3" type="audio/mpeg" />
+    </audio>
+  </body>
+  <script src="index.js"></script>
+</html>
